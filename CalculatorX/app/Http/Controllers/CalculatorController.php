@@ -29,4 +29,3 @@ class CalculatorController extends Controller
             return redirect('/')->with('message','Your answer is: '.$result);
     }
 }
-

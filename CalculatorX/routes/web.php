@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('calculator');
 });
 
-Route::post('/calculate', 'CalculateController@index');
+Route::post('calculation', 'App\Http\Controllers\CalculatorController@index');
