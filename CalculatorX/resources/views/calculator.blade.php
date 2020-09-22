@@ -56,7 +56,9 @@
               </div>
           </div> 
 <br><br><br>
+
           <div class="row">
+
               <div class="col-md-5 m-auto">
                   @if(session('message'))
                   <div class="alert alert-dark">
@@ -64,6 +66,8 @@
                   </div>
                   @endif
               </div>
+              
           </div>
+
     </body>
 </html>
